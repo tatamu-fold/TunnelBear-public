@@ -34,7 +34,7 @@ jobs:
       run: |
         cd TunnelBear
         date
-        python check-all.py
+        python check-all.py --populate
         date
       env:
           BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
