@@ -28,8 +28,7 @@ jobs:
         npm install -g deno
         deno --version
         sudo apt install -y openvpn openvpn-systemd-resolved ffmpeg
-        pip install requests
-        pip install -U "yt-dlp[default]"
+        pip install -U "yt-dlp[default]" ytmusicapi requests
 
     - name: Wait
       run: |
